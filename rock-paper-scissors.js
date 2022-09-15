@@ -26,7 +26,7 @@ if(player1 === "rock" && player2 === "scissors")
 } else if (player1 === player2){
     console.log("draw");
 } else if (player1 !== String || player2 !== String){
-    console.log("error")
+    console.log("error");
 } else {
-    console.log("error")
+    console.log("error");
 }
