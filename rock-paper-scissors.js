@@ -22,4 +22,6 @@ if(player1 === "rock" && player2 === "scissors")
     console.log("Player1 WINS!");
 } else if (player1 === player2){
     console.log("draw");
+} else {
+    console.log("error");
 }
