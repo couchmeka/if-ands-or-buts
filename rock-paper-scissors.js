@@ -19,7 +19,7 @@ if(player1 === "rock" && player2 === "scissors")
 } 
  else if (player1 === "scissors" && player2 === "paper")
 {
-    console.log("Player1 WINS!")
+    console.log("Player1 WINS!");
 } else if (player1 === player2){
     console.log("draw");
 }
