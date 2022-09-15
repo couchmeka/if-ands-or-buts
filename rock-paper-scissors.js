@@ -19,14 +19,19 @@ if(player1 === "rock" && player2 === "scissors")
 } else if (player1 === "scissors" && player2 === "paper")
 {
     console.log("Player1 WINS!");
-} else if (player1 === "rock" && player2 === "paper"){
+} else if (player1 === "rock" && player2 === "paper")
+{
     console.log("Player2 WINS!")
-} else if (player1 === "paper" && player2 === "rock"){
+} else if (player1 === "paper" && player2 === "rock")
+{
     console.log("Player1 WINS!");
-} else if (player1 === player2){
+} else if (player1 === player2)
+{
     console.log("draw");
-} else if (player1 !== String || player2 !== String){
+} else if (player1 !== String || player2 !== String)
+{
     console.log("error");
-} else {
+} else 
+{
     console.log("error");
 }
