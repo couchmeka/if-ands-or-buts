@@ -3,8 +3,10 @@ let pin =1234;
 let lockBox = Number(prompt("Pick a four digit pin code: "));
 
 
-if (lockBox === pin){
+if (lockBox === pin)
+{
     console.log("success")
-} else { 
+} else 
+{ 
     console.log("failure")
 }
